@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/young-man-sportswear-exercise-class-gym.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;  
+    display: flex;
+    
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+    filter: brightness(0) invert(1);
+
+}
+
+
+nav {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #9e9d9d;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+section {
+    margin-left: 10%;
+}
+
+section h1{
+    color: rgba(236, 209, 154, 0.808);
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+section h3{
+    color: rgba(236, 209, 154, 0.808);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgba(236, 209, 154, 0.808);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(236, 209, 154, 0.808);
+    color: black;
+    transition: background-color 0.3s ease;
+    
+}
+
+.call-to-action{
+    color: white;
+    margin-left: 10%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.call-to-action i{
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
